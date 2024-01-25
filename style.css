@@ -1,11 +1,19 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sriracha&display=swap');
+
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+}
+
 :root{
     --corFundo:#bbadffb1;
     --cor:#4b2749;
     --corB:#8E94F2;
     --corBotao: #564787;
     --corLetra: #ffffff;
+
+    --fonteMontserrat: 'Montserrat', sans-serif;
 }
 
 * {
@@ -13,17 +21,16 @@
     padding: 0px;
     }
 
-section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 40px;
+body{
+    font-family: var(--fonteMontserrat);
+    min-width: 500px;
 }
+
 
 header{
     background-color: var(--corFundo);
     min-height: 150px;
     min-width: 600px;
-
     background-attachment: fixed;
 }
 
@@ -68,16 +75,17 @@ header{
 }
 
 .container{
-    padding-top: 100px;
-    padding-left: 50px;
+    padding-top: 50px;
+    padding-left: 30px;
     padding-right: 50px;
     padding-bottom: 20px;
-    min-height: 100px;
+    min-height: 150px;
     background-attachment: fixed;
     
 }
 .container > img{
     float: right;
+    margin-left: 10px;
     display: block;
     min-height: 150px;
     border-radius: 105px;
@@ -91,7 +99,7 @@ header{
 }
 
 .container > p{
-    text-align: left;
+    text-align:  justify;
     line-height: 1.5em;
     font-size: 1em;
     margin-right: 400px;
@@ -106,7 +114,7 @@ header{
     margin-bottom: 5px;
     color: rgba(0, 0, 0, 0.823);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    min-width: 500px;
+    min-width: 100px;
 }
 
 .container>h3{
@@ -114,13 +122,18 @@ header{
     font-size: 1.2em;
     font-weight: bold;
     font-style: italic;
-    max-width: 500px;
+    max-width: 550px;
     padding-right: 10px;
     padding-bottom: 10px;
 }
 
 
-
+main>section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 main{
     margin: auto;
     background-color: white;
@@ -132,7 +145,7 @@ main{
 }
 
 main p{
-    margin: 15px 0px 15px 0px;
+    margin-right: 40px;
     text-align: justify;
     text-indent: 30px;
     font-size: 1em;
