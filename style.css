@@ -23,14 +23,14 @@
 
 body{
     font-family: var(--fonteMontserrat);
-    min-width: 500px;
+    min-width: 320px;
 }
 
 
 header{
     background-color: var(--corFundo);
     min-height: 150px;
-    min-width: 320px;
+    min-width: 400px;
     background-attachment: fixed;
 }
 
@@ -97,7 +97,7 @@ header{
     font-size: 1em;
     margin-right: 400px;
     padding-bottom: 18px;
-    min-width: 320px;
+    min-width: 400px;
    
 }
 
@@ -132,7 +132,7 @@ main{
     background-color: white;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.354);
     min-height: 150px;
-    min-width: 320px;
+    min-width: 400px;
     background-attachment: fixed;
     display: fixed;
 }
