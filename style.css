@@ -34,38 +34,28 @@ header{
     background-attachment: fixed;
 }
 
-.container>a>button{
-    align-items: center;
-    background-attachment: fixed;
-    line-height: 125%;
-
-}
-
 .botao{
     width: 100px;
     height: 30px;
-    margin: 5px;
-    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border: solid 1px var(--corBotao);
     border-radius: 10px;
     color: var(--corBotao);
     background-color: white;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
-    align-items: center;
     font-size: 16px;
     line-height: 125%;
 }
 
-.container>a>button>img.icon{
-    padding-right: 4px;
-    padding-top: 6px;
-    
+.icon{
+    margin-right: 5px;
 }
 
-.container>a>button.botao{
-    padding-bottom: 2px;
-    text-align: center;
-    
+.container#botoes{
+    align-items: center;
+    padding-bottom: 5px;
+    display: flex;
 }
 
 .botao:hover{
@@ -86,6 +76,7 @@ header{
 .container > img{
     float: right;
     margin-left: 10px;
+    margin-top: 15px;
     display: block;
     min-height: 150px;
     border-radius: 105px;
@@ -96,6 +87,8 @@ header{
 
 .container>a>button#git{
    align-items: center;
+   padding-right: 4px;
+   padding-top: 6px;
 }
 
 .container > p{
@@ -145,9 +138,21 @@ main{
 }
 
 main p{
-    margin-right: 40px;
+
     text-align: justify;
     text-indent: 30px;
     font-size: 1em;
     line-height: 1.5em;
 }
+
+.secoes>img{
+    float: left;
+    padding-right: 13px;
+}
+
+.secoes{
+    padding: 25px 10px 10px 7px;
+    align-items: center;
+    display: flex;
+}
+
