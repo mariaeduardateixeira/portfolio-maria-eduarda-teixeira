@@ -23,7 +23,7 @@
 
 body{
     font-family: var(--fonteMontserrat);
-    min-width: 320px;
+    min-width: 400px;
 }
 
 
@@ -107,7 +107,7 @@ header{
     margin-bottom: 5px;
     color: rgba(0, 0, 0, 0.823);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    min-width: 150px;
+    min-width: 200px;
 }
 
 .container>h3{
