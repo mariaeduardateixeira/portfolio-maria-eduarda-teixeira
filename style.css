@@ -23,7 +23,7 @@
 
 body{
     font-family: var(--fonteMontserrat);
-    min-width: 700px;
+    min-width: 320px;
 }
 
 
@@ -39,7 +39,7 @@ header{
     height: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: solid 1px var(--corBotao);
+    border: solid 1px var(--corB);
     border-radius: 10px;
     color: var(--corBotao);
     background-color: white;
@@ -120,7 +120,7 @@ header{
 
 main>section{
     padding-top: 10vh;
-    padding-bottom: 15vh;
+    padding-bottom: 75px;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -173,14 +173,15 @@ main p{
 
 #language{
     margin-top: 1px;
+    padding-bottom: 5px;
     float: left;
     background-color: rgba(240, 255, 255, 0.241);
-    padding-left: 3px;
     padding-right: 20px;
     width: max-content;
     border: 1px solid rgba(0, 0, 0, 0.315);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
     border-radius: 10px;
+   
 }
 
 #language > p > abbr > a{
@@ -190,8 +191,11 @@ main p{
 }
 
 #language > p > abbr > a:hover{
-    color: brown;
     text-decoration: underline;
+    color: cadetblue;
+    padding: 5px 5px;
+    background-color: cornsilk;
+    border-radius: 10px;
 }
 
 #language > p > abbr{
