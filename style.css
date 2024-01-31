@@ -51,8 +51,16 @@ body{
          padding: 0px;
          margin: 0;
          max-width: 460px;
+         align-items: center;
      }
  }
+
+ @media screen and (min-width: 600px) {
+    header{
+         width: 600px;
+         height: 150px;
+     }
+ } 
 
 
 header{
@@ -117,7 +125,7 @@ header{
     text-align:  justify;
     line-height: 1.5em;
     font-size: 1em;
-    margin-right: 400px;
+    margin-right: 300px;
     padding-bottom: 18px;
     padding-right: 10px;
     max-width: 900px;
