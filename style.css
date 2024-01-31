@@ -39,18 +39,22 @@ body{
 
 @media screen and (max-width: 600px) {
    body{
-        min-width: 600px;
+        min-width: 100%;
         padding: 0px;
         margin: 0;
+    }
+
+    .container>h1{
+        
     }
 } 
 
 @media screen and (max-width: 460px) {
-    footer{
+    header, footer{
          width: 100%;
          padding: 0px;
          margin: 0;
-         max-width: 460px;
+         max-width: 100%;
          align-items: center;
      }
  } 
