@@ -37,9 +37,9 @@ body{
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 600px) {
    body{
-        width: 100%;
+        width: 80%;
         padding: 0px;
         margin: 0;
     }
