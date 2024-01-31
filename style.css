@@ -30,7 +30,7 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    html, body{
+    body{
         width: 100%;
         padding: 0px;
         margin: 0px;
@@ -38,7 +38,7 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-   header, body{
+   body{
         width: 100%;
         padding: 0px;
         margin: 0;
