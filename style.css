@@ -44,8 +44,8 @@ body{
         margin: 0;
     }
 
-    .container>h1{
-        
+    footer{
+        max-width: 581px;
     }
 } 
 
@@ -54,8 +54,8 @@ body{
          width: 100%;
          padding: 0px;
          margin: 0;
-         max-width: 100%;
-         align-items: center;
+         /*max-width: 581px;*/
+         
      }
  } 
 
