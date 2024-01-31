@@ -19,18 +19,44 @@
 * {
     margin: 0px;
     padding: 0px;
+
     }
+
+
 
 body{
     font-family: var(--fonteMontserrat);
-    min-width: 700px;
+  
 }
+
+@media screen and (max-width: 768px) {
+    html, body{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   header, body{
+        width: 100%;
+        padding: 0px;
+        margin: 0;
+    }
+} 
+
+@media screen and (max-width: 460px) {
+    footer{
+         width: 100%;
+         padding: 0px;
+         margin: 0;
+         max-width: 460px;
+     }
+ }
 
 
 header{
     background-color: var(--corFundo);
-    min-height: 150px;
-    min-width: 600px;
     background-attachment: fixed;
 }
 
@@ -70,7 +96,6 @@ header{
     padding-left: 40px;
     padding-right: 50px;
     padding-bottom: 20px;
-    min-height: 150px;
     background-attachment: fixed;
     
 }
@@ -94,7 +119,9 @@ header{
     font-size: 1em;
     margin-right: 400px;
     padding-bottom: 18px;
-    min-width: 500px;
+    padding-right: 10px;
+    max-width: 900px;
+    margin-right: 0px;
    
 }
 
@@ -104,7 +131,6 @@ header{
     margin-bottom: 5px;
     color: rgba(0, 0, 0, 0.823);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    min-width: 100px;
 }
 
 .container>h3{
@@ -112,7 +138,6 @@ header{
     font-size: 1.2em;
     font-weight: bold;
     font-style: italic;
-    max-width: 550px;
     padding-right: 10px;
     padding-bottom: 10px;
 }
@@ -128,8 +153,7 @@ main{
     margin: auto;
     background-color: white;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.354);
-    min-height: 150px;
-    min-width: 100px;
+
     background-attachment: fixed;
     display: fixed;
 }
