@@ -39,7 +39,7 @@ body{
 
 @media screen and (max-width: 600px) {
    html, body{
-        width: 85vw;
+        width: 100vh;
         padding: 0px;
         margin: 0;
     }  
