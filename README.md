@@ -20,5 +20,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻Projeto
 
-- [Visite o projeto online](https://mariaeduardateixeira.github.io/projeto-cordel/)
+- [Visite o projeto online](https://mariaeduardateixeira.github.io/portfolio-maria-eduarda-teixeira/)
 
