@@ -45,18 +45,6 @@ body{
     }  
 } 
 
-@media screen and (max-width: 600px) {
-    .container > p{
-        min-width: 500px;
-    }
-    
-}
-@media screen and (max-width: 460px) {
-    .container > p {
-        min-width: 500px;
-      }
-  } 
-
 @media screen and (max-width: 460px) {
    footer{
          padding: 0px;
@@ -122,8 +110,6 @@ header{
     
 }
 
-
-
 .container > p{
     text-align:  justify;
     line-height: 1.5em;
@@ -163,12 +149,11 @@ main>section{
     padding-right: 40px;
 }
 main{
+    display: fixed;
     margin: auto;
     background-color: white;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.354);
-
     background-attachment: fixed;
-    display: fixed;
 }
 
 .secoes>img{
@@ -177,7 +162,7 @@ main{
 }
 
 .secoes{
-    padding: 2px 10px 10px 7px;
+    padding: 2px 10px 15px 7px;
     align-items: center;
     display: flex;
 }
@@ -193,31 +178,22 @@ main{
     background-color: rgba(240, 255, 255, 0.607);
     text-indent: 7px;
     padding: 0px 5px 0px 0px;
-    margin: 0px 0px 0px 13px;
+    margin:  5px 0px 0px 13px;
     border: 1px solid rgba(0, 0, 0, 0.315);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
     border-radius: 10px;
-    margin-top: 5px;
-    
 }
-
-.experiencia{
-    justify-content: flex-start;
-    background-color: #4b2749;
-    }
 
 section > h3{
     padding-bottom: 5px;
-    
 }
 
 section > p{
     text-align: justify;
     line-height: 1.5em;
     font-size: 1em;
-    margin-right: 300px;
-    padding-bottom: 5px;
     padding-right: 10px;
+    padding-bottom: 5px;
     max-width: 900px;
     margin-right: 0px;
     margin-left: 50px;
@@ -239,10 +215,9 @@ section > p{
     border: 1px solid rgba(0, 0, 0, 0.161);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
     border-radius: 10px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding:10px 10px;
     line-height: 2em;
-    margin-bottom: 7px;
+    margin-bottom: 9px;
     background-color: rgba(240, 255, 255, 0.241);
 }
 
@@ -256,6 +231,10 @@ section > p{
     padding-bottom: 0px;
 }
 
+.externo::after{
+    content: '\00A0\1F517';
+}
+
 #language, .cursos p{
     text-align: justify;
     text-indent: 30px;
@@ -265,10 +244,9 @@ section > p{
 
 #language{
     margin-top: 0px;
-    padding-bottom: 5px;
+    padding: 5px 20px 5px 5px;
     float: left;
     background-color: rgba(240, 255, 255, 0.241);
-    padding-right: 20px;
     width: max-content;
     border: 1px solid rgba(0, 0, 0, 0.315);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
@@ -298,12 +276,9 @@ section > p{
     border: 1px solid rgba(0, 0, 0, 0.315);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.541);
     border-radius: 10px;
-    padding-top: 7px;
-    padding-right: 10px;
-    padding-left: 25px;
-    padding-bottom: 7px;
+    padding: 7px 12px 15px 30px;
     line-height: 2em;
-    margin-bottom: 7px;
+    margin-bottom: 9px;
     background-color: rgba(240, 255, 255, 0.241);
 }
 
