@@ -1,7 +1,7 @@
 <h1 align="center"> Portfólio </h1>
 
 <p align="center">
-Projeto desenvolvido com o intuito de praticar o aprendizado adquirido em HTML5 e CSS3. </br>
+👩‍💻📖 Projeto desenvolvido com o intuito de praticar o aprendizado adquirido em HTML5 e CSS3. </br>
 </p>
 
 <br>
