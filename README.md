@@ -5,8 +5,8 @@ Projeto desenvolvido com o intuito de praticar o aprendizado adquirido em HTML5 
 </p>
 
 <p align="center">
-  <a href="##tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>
+  <a href src="#tecnologias">Tecnologias</a>;
+  <a href="#-projeto">Projeto</a>;
 </p>
 
 <br>
