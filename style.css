@@ -30,7 +30,7 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    body{
+    html,body{
         width: 100%;
         padding: 0px;
         margin: 0px;
@@ -38,19 +38,15 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-   body{
-        min-width: 100%;
+   html,body{
+        min-width: 80vh;
         padding: 0px;
         margin: 0;
-    }
-
-    footer{
-        max-width: 581px;
-    }
+    }    
 } 
 
 @media screen and (max-width: 460px) {
-    header, footer{
+   footer{
          width: 100%;
          padding: 0px;
          margin: 0;
